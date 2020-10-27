@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-dev": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -22,6 +23,8 @@
     "@angular/router": "~7.0.0",
     "bootstrap": "^4.5.3",
     "core-js": "^2.5.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
